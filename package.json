@@ -1,0 +1,36 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "This is simple NodeJS Application",
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Darina Nenasheva <dydykina1997@mail.ru>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33",
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nenasheva-Darina/homework-3-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nenasheva-Darina/homework-3-2/issues"
+  },
+  "homepage": "https://github.com/Nenasheva-Darina/homework-3-2#readme"
+}
